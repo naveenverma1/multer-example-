@@ -46,7 +46,7 @@ app.post('/uploadfile', upload.single('myFile'), (req, res, next) => {
 
   }
 
- 
+ console.log(file)
     res.send(file)
  
 })
@@ -113,3 +113,4 @@ db.collection('mycollection').findOne({'_id': ObjectId(filename) }, (err, result
    
   })
 })
+//xtgtkhbhkbxkersyiux
